@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://componentlibraryproject-1main.onrender.com", 
+    origin: "https://reactuilibrary.onrender.com", 
     credentials: true,               
   })
 );
