@@ -180,7 +180,6 @@ export const saveComponent = async (req, res) => {
   }
 };
 
-
 export const publishComponent = async (req, res) => {
   try {
 
@@ -285,7 +284,7 @@ export const publishComponent = async (req, res) => {
 
     // update component visibility
     component.visibility = "public";
-    component.npmPackage = "virtual-ui-lib";
+    component.npmPackage = "virtual-ui-comp-lib";
 
     await component.save();
 

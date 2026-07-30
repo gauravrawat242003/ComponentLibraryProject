@@ -32,14 +32,13 @@ function Auth({ onClose }) {
    const handleGoogleLogin = async () => {
      try {
         const response = await signInWithPopup(auth , provider)
+        //console.log(response);
         let User = response.user
         let name = User.displayName
         let email = User.email
         const result = await axios.post(ServerUrl+ "/api/auth/googlesignup" , {name , email}, {withCredentials:true})
         dispatch(setUserData(result.data))
         onClose()
-      
-        
         
     } catch (error) {
 dispatch(setUserData(null))
