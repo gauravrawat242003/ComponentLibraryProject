@@ -244,8 +244,8 @@ POST	/api/payment/verify	Verify payment
 - Environment variables for sensitive credentials.
 👨‍💻 Author
 Gaurav Rawat
-- GitHub: Your GitHub Profile
-- LinkedIn: Your LinkedIn Profile
+- GitHub: https://github.com/gauravrawat242003
+- LinkedIn: https://www.linkedin.com/in/gaurav-rawat-003977343
 
 ⭐ If you find this project interesting, consider giving it a star!
 
